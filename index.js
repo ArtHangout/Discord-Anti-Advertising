@@ -30,7 +30,7 @@ module.exports = class AntiAdvertising {
             'gm'
           );
           var guild_id = search.exec(s);
-          if (this.guild_ids.has(guild_id)) return res(false);
+          if (this.guild_ids.has(guild_id[0])) return res(false);
           res(true);
         })
         .catch((err) => rej(err));
