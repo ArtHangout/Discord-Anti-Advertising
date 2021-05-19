@@ -1,0 +1,16 @@
+{
+  "name": "discord-anti-advertising",
+  "version": "1.0.0",
+  "description": "Check if string has a discord invite, with optional guild whitelist",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "Discord",
+    "Moderation"
+  ],
+  "author": "KK964",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
